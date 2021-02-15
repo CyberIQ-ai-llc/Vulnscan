@@ -4,4 +4,6 @@ CyberIQ Vulnscan uses Nmap and Vulners to scan an external target or internal ne
 
 It is a combination of Python and Bash scripts that automatically determine your IP address, CIDR, broadcast address, gateway, and network address for internal scans.
 
+External_vulnscan will scan an external IP address or web application.
+
 When finished, Vulnscan will display the output of the Nmap/Vulners scan in a web browser.
