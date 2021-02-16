@@ -7,3 +7,15 @@ It is a combination of Python and Bash scripts that automatically determine your
 External_vulnscan will scan an external IP address or web application.
 
 When finished, Vulnscan will display the output of the Nmap/Vulners scan in a web browser.
+
+Give execute rights to the scripts: 
+sudo chmod +x external_vulnscan.sh vulnscan.sh
+
+Goto your nmap scripts: 
+cd /usr/share/nmap/scripts/
+
+Clone the Vulners git:
+sudo git clone https://github.com/vulnersCom/nmap-vu...​
+
+Install netifaces module command: 
+sudo pip install netifaces
