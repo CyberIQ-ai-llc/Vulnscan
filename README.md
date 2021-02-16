@@ -15,7 +15,7 @@ Goto your nmap scripts:
 cd /usr/share/nmap/scripts/
 
 Clone the Vulners git:
-sudo git clone https://github.com/vulnersCom/nmap-vu...​
+sudo git clone https://github.com/vulnersCom/nmap-vulners
 
 Install netifaces module command: 
 sudo pip install netifaces
