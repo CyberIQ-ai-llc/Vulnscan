@@ -40,3 +40,9 @@ sudo git clone https://github.com/vulnersCom/nmap-vulners
 
 Install netifaces module command: 
 sudo pip install netifaces
+
+To run vulnscan:                                                                                                                                                   
+cd path/to/vulnscan                                                                                                                                               
+python3 vulnscan.py
+
+
