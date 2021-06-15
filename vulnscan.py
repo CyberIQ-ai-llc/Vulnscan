@@ -81,7 +81,7 @@ choice1 = input(f"Do you want contine to scan? {b.WARNING}('y' or 'q' to quit){b
 while True:
     # (option 1)
     if choice1.lower() == 'y':
-        subprocess.call(shlex.split(f"sudo ./vulncscan.sh {net_addr} {username}"))
+        subprocess.call(shlex.split(f"sudo ./vulnscan.sh {net_addr} {username}"))
         exit()
         break
      
