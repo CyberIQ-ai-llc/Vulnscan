@@ -45,4 +45,8 @@ To run vulnscan:
 cd path/to/vulnscan                                                                                                                                               
 python3 vulnscan.py
 
+Other updates:                                                                                                                                                    
+Timestamps on directories created for each scan are more human readable                                                                                          
+Host
+
 
