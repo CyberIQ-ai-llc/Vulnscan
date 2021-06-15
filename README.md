@@ -22,7 +22,7 @@ It is a combination of Python and Bash scripts that automatically determine your
 
 External_vulnscan will scan an external IP address or web application.
 
-When finished, Vulnscan will display the output of the Nmap/Vulners scan in a web browser.
+When finished, Vulnscan will display the output of the Nmap/Vulners scan in a web browser
 
 I plan to make a video of the latest version
 https://www.youtube.com/watch?v=bz-YNAqkEdw&list=PL-wIeEEXVEaNRC2XkOeo8crDXoiToTA9E&index=1
