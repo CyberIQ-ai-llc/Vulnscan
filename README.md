@@ -8,7 +8,6 @@ We have made some changes to Vulnscan. It no longer has the option of a single d
     
 To: 
 
-while [[ $oops == 0 ]]; do
     choice=3                                # To this and edit the value of the choice variable
     read -e -i $choice -p ">>> " choice     # to the menu value that you want
     #read -p ">>> " choice                  #
