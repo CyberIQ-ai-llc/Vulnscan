@@ -26,7 +26,7 @@ External_vulnscan will scan an external IP address or web application.
 
 When finished, Vulnscan will display the output of the Nmap/Vulners scan in a web browser
 
-I plan to make a video of the latest version
+I plan to make a video of the latest version the video below is of the old vervion                                                                                
 https://www.youtube.com/watch?v=bz-YNAqkEdw&list=PL-wIeEEXVEaNRC2XkOeo8crDXoiToTA9E&index=1
 
 Give execute rights to the scripts: 
