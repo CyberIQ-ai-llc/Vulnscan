@@ -55,7 +55,7 @@ net_addr, octets_dict, net_addr_no_CIDR, gateway = n.get_net_addr(network_id_lis
 
 """ This creates a banner. """
 try:
-    banner = pyfiglet.figlet_format("scanBuilder")
+    banner = pyfiglet.figlet_format("Vulnscan")
     print(f"\n{b.OKBLUE}{b.BOLD}{banner}{b.ENDC}")
 except ModuleNotFoundError:
     pass
