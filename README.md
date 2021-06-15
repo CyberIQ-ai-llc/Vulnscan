@@ -2,9 +2,9 @@
 
 We have made some changes to Vulnscan. It no longer has the option of a single device scan and is strictly a whole network scanner. This makes it a good tool for doing periodic network scans. It now also has more options for the intensity of the scan and displays the current nmap scan as you go through the menus. If you wish to have default choices for your scan, you can do a little editing to the vulnscan.sh script.  For each of the case statements (there are 5 instances) where you see the while statement change this:
                                                                                                                                     
-    #choice=3                               # Change these lines                                                                                                   
-    #read -e -i $choice -p ">>> " choice    #                                                                                                                     
-    read -p ">>> " choice                   #                                                                                                                     
+    #choice=3                               # Change these lines 
+    #read -e -i $choice -p ">>> " choice    # 
+    read -p ">>> " choice                   # 
     
 To: 
 
