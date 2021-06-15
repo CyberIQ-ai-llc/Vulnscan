@@ -15,11 +15,10 @@ To:
 The default values that are currently set are for a very intensive vulnerability scan
 
 There were some intermitten errors with using Edge Chromium browser as the default browser, If you are experencing issues at the end of the script
-Uncomment:
-"#sudo -u $username firefox saved_nmap_scans/$directory/$filename.html&"  You can also substitute "firefox" for another browser
 
-Comment out: 
-"sudo -u $username xdg-open saved_nmap_scans/$directory/$filename.html&"   
+Uncomment:  "#sudo -u $username firefox saved_nmap_scans/$directory/$filename.html&"  You can also substitute "firefox" for another browser
+
+Comment out:  "sudo -u $username xdg-open saved_nmap_scans/$directory/$filename.html&"   
 
 It is a combination of Python and Bash scripts that automatically determine your IP address, CIDR, broadcast address, gateway, and network address for internal scans.
 
