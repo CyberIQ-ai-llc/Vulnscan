@@ -243,9 +243,9 @@ sudo -u $username xdg-open saved_nmap_scans/$directory/$filename.html&
 #sudo -u $username firefox saved_nmap_scans/$directory/$filename.html&
 
 echo -e "\nThe following reports are available at:"
-echo -e "\n  ${cg}~/scan_builder2/saved_nmap_scans/$directory/$filename.nmap"
-echo -e "  ~/scan_builder2/saved_nmap_scans/$directory/$filename.xml"
-echo -e "  ~/scan_builder2/saved_nmap_scans/$directory/$filename.html"
-echo -e "  ~/scan_builder2/saved_nmap_scans/$directory/$filename.gnmap"
-echo -e "  ~/scan_builder2/saved_nmap_scans/$directory/up_hosts.txt"
-echo -e "  ~/scan_builder2/saved_nmap_scans/$directory/input_list.txt${cn}"
+echo -e "\n  ${cg}~/Vulnscan/saved_nmap_scans/$directory/$filename.nmap"
+echo -e "  ~/Vulnscan/saved_nmap_scans/$directory/$filename.xml"
+echo -e "  ~/Vulnscan/saved_nmap_scans/$directory/$filename.html"
+echo -e "  ~/Vulnscan/saved_nmap_scans/$directory/$filename.gnmap"
+echo -e "  ~/Vulnscan/saved_nmap_scans/$directory/up_hosts.txt"
+echo -e "  ~/Vulnscan/saved_nmap_scans/$directory/input_list.txt${cn}"
